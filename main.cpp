@@ -16,5 +16,6 @@
   int main() {
     std::cout << my_pow(3.0, 4) << std::endl;
     std::cout << my_pow(3.0, -4) << std::endl;
+    std::cout << std::pow(3.0, 4) << std::endl;
     return 0;
   }
