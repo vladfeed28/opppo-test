@@ -1,4 +1,5 @@
   #include <iostream>
+  #include <cmath>
 
   double my_pow(double a, unsigned int b) {
     double result = 1.0;
@@ -9,6 +10,6 @@
   }
 
   int main() {
-    std::cout << my_pow(3.0, 4) << std::endl;
+    std::cout << std::pow(3.0, 4) << std::endl;
     return 0;
   }
